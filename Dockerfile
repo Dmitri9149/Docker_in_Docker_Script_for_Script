@@ -1,7 +1,9 @@
 FROM ubuntu
 RUN apt-get update
 RUN apt-get install nginx -y
-COPY index.html /var/www/html/
+WORKDIR /usr/app
+COPY ./sh_html.sh .
+RUN chmod +x ./sh_html.sh > /var/www/html/index.html
 EXPOSE 80
 CMD ["nginx","-g","daemon off;"]
 
