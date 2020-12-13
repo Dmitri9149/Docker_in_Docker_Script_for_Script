@@ -24,5 +24,5 @@ and get the web page at localhost:80 (as example).
 
 This is the FIRST part of the project : Project 1.
 
-/---------------------------------------------------
+-> ---------------------------------------------------
 
