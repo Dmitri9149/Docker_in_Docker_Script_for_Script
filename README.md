@@ -26,3 +26,16 @@ This is the FIRST part of the project : Project 1.
 
 -> ---------------------------------------------------
 
+Second part is the solution for the exercise 3.3 of the  
+Dev Ops With Docker 2020 course of University of Helsinki :   
+https://devopswithdocker.com/
+
+Shell script will be produced which will:
+1. Download repo with project (with already created Dockerfile for containerization) from GitHub.
+2. Publish the project to DockerHub.
+
+Dockerfile for the shell script will be produced which will run the script from within container (the docker will be installed within the container).
+
+The second part is in progress.
+
+
