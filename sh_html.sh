@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # sysinfo_page - A script to produce an HTML file
+# based on : http://linuxcommand.org/lc3_writing_shell_scripts.php
 
 title="System Information for"
 
