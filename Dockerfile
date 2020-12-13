@@ -1,8 +1,10 @@
-FROM ubuntu:16.04
-RUN apt-get update && apt-get install nginx -y
+FROM ubuntu
+RUN apt-get update
+RUN apt-get install nginx -y
 WORKDIR /usr/app
 COPY ./sh_html.sh .
-RUN chmod +x ./sh_html.sh > /var/www/html/index.html
+RUN chmod +x sh_html.sh
+RUN ./sh_html.sh > /var/www/html/index.html
 EXPOSE 80
 CMD ["nginx","-g","daemon off;"]
 
