@@ -14,11 +14,11 @@ The shell script sh_shell.sh is 'conteinerized' with NGINX server
 
 After building docker image with :  
 
-```~>/shell_for_html$ sudo docker build -t builder . ```  
+```~>/shell_for_html$ sudo docker build -t staticpage . ```  
 
 we can run docker container with :   
 
-``` ~>/shell_for_html$ sudo docker run -d -p 80:80 builder ```  
+``` ~>/shell_for_html$ sudo docker run -d -p 80:80 staticpage ```  
 
 and get the web page at localhost:80 (as example).
 
@@ -35,11 +35,11 @@ Dev Ops With Docker 2020 course of University of Helsinki :
 https://devopswithdocker.com/
 
 Shell script will be produced which will:
-1. Download repo with project (with already created Dockerfile for containerization) from GitHub.
+1. Download a repo with project (with already created Dockerfile for containerization) from GitHub.
 2. Publish the project to DockerHub.
 
-Dockerfile for the shell script will be produced which will run the script from within container (the docker will be installed within the container).
+Additionally Dockerfile for the shell script will be produced which will run the script from within container (the docker will be installed within the container). So, the script for getting a project / builing image / pushing it to DockerHub will be run within docker container. 
 
-The second part is in progress.
+See the https://github.com/Dmitri9149/DevOps-with-Docker-2020-part3/tree/master/ex_3.3
 
 
