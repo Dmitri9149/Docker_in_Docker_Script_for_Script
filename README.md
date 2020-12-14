@@ -24,6 +24,10 @@ and get the web page at localhost:80 (as example).
 
 This is the FIRST part of the project : Project 1.
 
+THE SCRIPT JUST GENERATE THE TIME OF CREATION IN THE CONTAINER, 
+NOT MORE, IN GENERAL THE INFORMATION ABOUT SYSTEM IS SENSITIVE. 
+AND THE HTML PAGE IS NOT INTENDED FOR A PUBLIC USE. 
+MAINLY IT IS A TASK TO SEE WHAT WE CAN DO WITH SCRIPTS AND TO GENERATE UNTRIVIAL INFORMATION FLOW.
 -> ---------------------------------------------------
 
 Second part is the solution for the exercise 3.3 of the  
