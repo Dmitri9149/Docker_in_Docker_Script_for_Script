@@ -34,11 +34,13 @@ Second part is the solution for the exercise 3.3 of the
 Dev Ops With Docker 2020 course of University of Helsinki :   
 https://devopswithdocker.com/
 
-Shell script will be produced which will:
-1. Download a repo with project (with already created Dockerfile for containerization) from GitHub.
+There are : 
+shell script get_build.sh which will:
+1. Download a repo with a project (with already created Dockerfile for containerization) from GitHub.
 2. Publish the project to DockerHub.
 
-Additionally Dockerfile for the shell script will be produced which will run the script from within container (the docker will be installed within the container). So, the script for getting a project / builing image / pushing it to DockerHub will be run within docker container. 
+And finally the get_build script will be dockerized too:
+3. Dockerfile with the get_build.sh script will run the script within container (the docker cli will be installed within the container). So, the get_build.sh script for getting a project / builing image / pushing it to DockerHub will be run within docker container. 
 
 See the https://github.com/Dmitri9149/DevOps-with-Docker-2020-part3/tree/master/ex_3.3
 
