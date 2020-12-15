@@ -35,12 +35,13 @@ Dev Ops With Docker 2020 course of University of Helsinki :
 https://devopswithdocker.com/
 
 There are : 
-shell script get_build.sh which will:
+shell script builder.sh which will:
 1. Download a repo with a project (with already created Dockerfile for containerization) from GitHub.
 2. Publish the project to DockerHub.
 
-And finally the get_build script will be dockerized too:
-3. Dockerfile with the get_build.sh script will run the script within container (the docker cli will be installed within the container). So, the get_build.sh script for getting a project / builing image / pushing it to DockerHub will be run within docker container. 
+And finally the builder.sh script is dockerized too:
+3. Dockerfile with the builder.sh script will build image to run the script within container (the docker cli will be installed within the container).   
+So, the builder.sh script for -> getting a project -> building image -> pushing it to DockerHub will be run within docker container. 
 
 See the https://github.com/Dmitri9149/DevOps-with-Docker-2020-part3/tree/master/ex_3.3
 
