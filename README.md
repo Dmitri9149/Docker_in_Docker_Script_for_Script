@@ -45,4 +45,5 @@ So, the builder.sh script for -> getting a project -> building image -> pushing 
 
 See the https://github.com/Dmitri9149/DevOps-with-Docker-2020-part3/tree/master/ex_3.3
 
+I used some ideas from: https://github.com/McFizh/devops-docker-2020/tree/master/part3
 
